@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My test tack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<div class="container">
+    <h1> Test</h1>
+
+    <div class="content">
+
+        <div class="left">
+            <div class="title">Name/Value Pair</div>
+            <div id="enter">
+
+                <p>
+                    <input id="name" type="text" maxlength="10" name="name" placeholder="enter name max 10">
+                    <input id="value" type="number" maxlength="5" name="value" placeholder="enter value only numbers">
+                </p>
+
+            </div>
+            <div class="title">Name/Value Pair List</div>
+            <div class="field">
+                <div class="item">
+                    <div class="saveData">
+                        <div id="str" ></div>
+                        <div id="xml"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right">
+            <button onclick="addItem()">Add</button>
+            <button onclick="sortName()">Sort by name</button>
+            <button onclick="sortValue()">Sort by value</button>
+            <button onclick="deleteItem()">Delete</button>
+            <button onclick="expEml()">Show XML</button>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
